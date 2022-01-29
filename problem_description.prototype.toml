@@ -1,0 +1,23 @@
+description = """\
+This is the problem description. Everything here is an example of what the \
+problem description would be like."""
+
+test_cases = [
+    "1 2 3 4 5",
+    "54 34 12 10",
+    "45\n45\n12\n12",
+]
+
+outputs = [
+    "5 6 7 8",
+    "12 13 14 15",
+    "1\n1\n2\n3",
+]
+
+[constraints]
+execution_memory_kb = 20
+compilation_memory_kb = 20
+execution_time_s = 60
+compilation_time_s = 60
+solution_file_size_kb = 40
+
