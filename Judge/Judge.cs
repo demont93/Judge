@@ -6,7 +6,7 @@ namespace Shinpan
     {
         private readonly ProblemInfo _problem;
 
-        public Judge (ProblemInfo problem, Script script, Language language)
+        public Judge (ProblemInfo problemInfo, Script script, Language language)
         {
 
             //Language lang = DetectLanguage();
