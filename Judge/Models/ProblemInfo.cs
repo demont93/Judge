@@ -1,6 +1,6 @@
 ﻿namespace Shinpan
 {
-    interface IProblemInfo
+    public interface IProblemInfo
     {
         public string GetDescription();
         public IEnumerable<TestCaseIo> TestCases();
