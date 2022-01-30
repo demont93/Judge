@@ -62,9 +62,9 @@ namespace Shinpan
             if (TestFile == null)
                 throw new ArgumentNullException("Test File should have a value");
 
-            var StartInfo = SolutionProcess.StartInfo;
+            var startInfo = SolutionProcess.StartInfo;
 
-            if (!(StartInfo.RedirectStandardOutput && StartInfo.RedirectStandardInput))
+            if (!(startInfo.RedirectStandardOutput && startInfo.RedirectStandardInput))
                 throw new ArgumentException("The solution process should have stdout, stdin and stderr redirected");
         }
     }
